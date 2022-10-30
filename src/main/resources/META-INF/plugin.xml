@@ -150,14 +150,10 @@
     <depends optional="true" config-file="phpConfig.xml">com.jetbrains.php</depends>
     <resource-bundle>messages.I18nBundle</resource-bundle>
     <extensions defaultExtensionNs="com.intellij">
-        <psi.referenceContributor language="JavaScript" implementation="com.eny.i18n.plugin.ide.references.code.JsReferenceContributor"/>
-        <psi.referenceContributor language="JSX Harmony" implementation="com.eny.i18n.plugin.ide.references.code.JsxReferenceContributor"/>
-        <psi.referenceContributor language="JSON" implementation="com.eny.i18n.plugin.ide.references.translation.JsonReferenceContributor"/>
-        <psi.referenceContributor language="yaml" implementation="com.eny.i18n.plugin.ide.references.translation.YamlReferenceContributor"/>
         <projectService serviceImplementation="com.eny.i18n.plugin.ide.settings.Settings"/>
         <projectConfigurable groupId="tools" displayName="I18n Plugin Configuration" instance="com.eny.i18n.plugin.ide.settings.Configurable"/>
         <intentionAction>
-            <className>com.eny.i18n.plugin.ide.actions.ExtractI18nIntentionAction</className>
+            <className>com.eny.i18n.plugin.core.ide.actions.ExtractI18nIntentionAction</className>
         </intentionAction>
         <lang.documentationProvider language="JavaScript" implementationClass="com.eny.i18n.plugin.core.ide.hint.HintProvider"/>
     </extensions>
