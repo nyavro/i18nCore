@@ -1,7 +1,9 @@
 package com.eny.i18n.plugin.core.ide.annotator
 
+import com.eny.i18n.plugin.core.ide.quickfix.AllSourcesSelector
+import com.eny.i18n.plugin.core.ide.quickfix.CreateKeyQuickFix
 import com.eny.i18n.plugin.core.ide.quickfix.CreateTranslationFileQuickFix
-import com.eny.i18n.plugin.ide.quickfix.*
+import com.eny.i18n.plugin.core.ide.quickfix.UserChoice
 import com.eny.i18n.plugin.ide.settings.Settings
 import com.eny.i18n.plugin.key.FullKey
 import com.eny.i18n.plugin.key.lexer.Literal

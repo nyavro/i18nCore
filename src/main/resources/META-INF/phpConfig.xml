@@ -1,6 +1,6 @@
 <idea-plugin>
     <extensions defaultExtensionNs="com.intellij">
         <psi.referenceContributor language="PHP" implementation="com.eny.i18n.plugin.ide.references.code.PhpReferenceContributor"/>
-        <lang.documentationProvider language="PHP" implementationClass="com.eny.i18n.plugin.ide.hint.HintProvider"/>
+        <lang.documentationProvider language="PHP" implementationClass="com.eny.i18n.plugin.core.ide.hint.HintProvider"/>
     </extensions>
 </idea-plugin>

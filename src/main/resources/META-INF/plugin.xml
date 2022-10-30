@@ -159,6 +159,6 @@
         <intentionAction>
             <className>com.eny.i18n.plugin.ide.actions.ExtractI18nIntentionAction</className>
         </intentionAction>
-        <lang.documentationProvider language="JavaScript" implementationClass="com.eny.i18n.plugin.ide.hint.HintProvider"/>
+        <lang.documentationProvider language="JavaScript" implementationClass="com.eny.i18n.plugin.core.ide.hint.HintProvider"/>
     </extensions>
 </idea-plugin>

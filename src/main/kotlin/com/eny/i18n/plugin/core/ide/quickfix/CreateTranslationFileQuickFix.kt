@@ -1,7 +1,6 @@
 package com.eny.i18n.plugin.core.ide.quickfix
 
 import com.eny.i18n.plugin.factory.ContentGenerator
-import com.eny.i18n.plugin.ide.quickfix.QuickFix
 import com.eny.i18n.plugin.key.FullKey
 import com.intellij.openapi.application.ApplicationManager
 import com.intellij.openapi.command.WriteCommandAction
